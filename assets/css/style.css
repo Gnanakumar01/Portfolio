@@ -207,7 +207,7 @@ body {
     font-size: 16px;
 }
 
-.back {
+.progress-bar {
     width: 100%;
     height: 8px;
     background-color: #333;
@@ -215,7 +215,7 @@ body {
     position: relative;
 }
 
-.front {
+.progress {
     height: 100%;
     background-color: #f9b233;
     border-radius: 10px;
