@@ -40,8 +40,11 @@ body {
     gap: 20px;
     padding-right: 50px;
 }
+.nav-link{
+    color: white;
+}
 
-:hover.list-item {
+:hover.nav-link {
     cursor: pointer;
     color: darkgoldenrod;
     text-decoration: underline;
