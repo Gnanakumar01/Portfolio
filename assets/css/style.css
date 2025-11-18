@@ -104,7 +104,7 @@ body {
 :hover.hire,
 :hover.work {
     background-color: darkgoldenrod;
-    border: none;
+    border: 1px solid darkgoldenrod;
     cursor: pointer;
 }
 
@@ -224,3 +224,82 @@ body {
     border-radius: 10px;
 }
 /* Skills section styles ends */
+
+/* Project section starts */
+/* Project section ends */
+
+/* contact section starts */
+.contact{
+    h1{
+        text-align: center;
+    }
+    .sub-para{
+        text-align: center;
+    }
+    .contact-container{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+        padding-top: 50px;
+        .getting-touch{
+            font-size: 25px;
+            width: 250px;
+        }
+        .bi-envelope-fill, .bi-telephone-fill, .bi-geo-alt-fill{
+            padding-right: 5px;
+        }
+        .github{
+            font-size: 30px;
+            padding-left: 80px;
+            .bi{
+                padding: 5px 10px;
+                border-radius: 5px;
+            }
+            :hover.bi-github{
+                background-color: grey;
+            }
+            :hover.bi-linkedin{
+                color: rgb(16, 115, 236);
+                background-color: grey;
+            }
+        }
+    }
+    .contact_right{
+        margin-top: 20px;
+        border: 1px solid ;
+        padding: 40px 20px;
+        border-radius: 10px;
+        height: 300px;
+        align-items: center;
+        input{
+            margin: 5px;
+            padding: 3px;
+            width: 200px;
+        }
+        textarea{
+            margin: 5px;
+            width: 200px;
+        }
+        button{
+            border: 1px solid white;
+            background-color: black;
+            border-radius: 5px;
+            padding: 5px;
+            margin-left: 45px;
+            &:hover{
+                background-color: #f9b233;
+                border: 1px solid #f9b233;
+            }
+            
+        }
+    }
+}
+/* contact section ends */
+
+/* footer section starts */
+footer{
+    div{
+        margin-top: 80px;
+        text-align: center;
+    }
+}
