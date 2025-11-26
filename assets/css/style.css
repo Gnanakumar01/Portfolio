@@ -2,18 +2,17 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    color: white;
 }
 
 body {
-    background-color: black;
+    background-color: #aaa;
 }
 
 .navbar{
     width: 100vw;
     position: fixed;
     top: 0;
-    background-color: black;
+    background-color: #333;
     z-index: 1;
     
 }
@@ -74,11 +73,11 @@ body {
 
     .hire {
         margin-right: 20px;
-        border: 1px solid;
+        border: none;
         border-radius: 50px;
         padding: 5px;
         font-family: Verdana, Geneva, Tahoma, sans-serif;
-        background-color: black;
+        
     }
 
     .work {
@@ -86,7 +85,7 @@ body {
         border: 1px solid;
         border-radius: 50px;
         padding: 5px;
-        background-color: black;
+        border: none;
     }
 }
 
@@ -104,7 +103,6 @@ body {
 :hover.hire,
 :hover.work {
     background-color: darkgoldenrod;
-    border: 1px solid darkgoldenrod;
     cursor: pointer;
 }
 
@@ -115,6 +113,7 @@ body {
 .about_me {
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     display: flex;
+    flex-wrap: wrap;
     position: relative;
     margin-top: 50px;
     right: 20px;
@@ -173,12 +172,12 @@ body {
     }
 }
 
-/* ABout section style ends */
+/* About section style ends */
 
 /* Skill section style starts */
 
 .skills-section {
-    padding-top: 100px;
+    padding-top: px;
     width: 80%;
     margin: auto;
     text-align: center;
@@ -226,6 +225,49 @@ body {
 /* Skills section styles ends */
 
 /* Project section starts */
+.project-card{
+    margin: 100px 0px;
+    h1{
+        text-align: center;
+        font-size: 50px;
+    }
+}
+.Projects{
+    margin-top: 100px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    gap: 10px;
+
+    .website{
+        display: grid;
+        border: 1px solid #aaa;
+        background-color: white;
+        border-radius: 8px; 
+        justify-items: center;
+        padding-bottom: 10px;
+        button{
+            padding: 5px 10px;
+            background-color: gray;
+            border-radius: 5px;
+            border: none;
+            &:hover{
+                background-color: #f9b233;
+            }
+        }
+        img{
+            border-radius: 8px;
+            height: 150px;
+            width: 300px;
+
+        }
+        &:hover{
+            transform: translateY(-10px);
+        }
+
+    }
+}
+
 /* Project section ends */
 
 /* contact section starts */
@@ -254,13 +296,15 @@ body {
             .bi{
                 padding: 5px 10px;
                 border-radius: 5px;
+                color: black;
             }
             :hover.bi-github{
-                background-color: grey;
+               color: gray;
+                
             }
             :hover.bi-linkedin{
-                color: rgb(16, 115, 236);
-                background-color: grey;
+                color: #0077B5;
+                transition: 500ms;
             }
         }
     }
@@ -282,7 +326,6 @@ body {
         }
         button{
             border: 1px solid white;
-            background-color: black;
             border-radius: 5px;
             padding: 5px;
             margin-left: 45px;
@@ -303,3 +346,4 @@ footer{
         text-align: center;
     }
 }
+
