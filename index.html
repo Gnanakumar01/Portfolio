@@ -16,31 +16,31 @@
     <header class="navbar">
         <nav class="navbar navbar-expand-lg p-2">
             <div class="container-fluid">
-                <a class="navbar-brand text-light ps-5" href="#">Gnanakumar</a>
-                <button class="navbar-toggler bg-secondary" type="button" data-bs-toggle="collapse"
+                <a class="navbar-brand text-dark ps-5" href="#">Potfolio</a>
+                <button class="navbar-toggler " type="button" data-bs-toggle="collapse"
                     data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
                     aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
-                <div class="collapse navbar-collapse justify-content-end pe-2" id="navbarSupportedContent">
-                    <ul class="navbar-nav pe-5">
-                        <li class="nav-item text-light">
+                <div class="collapse navbar-collapse justify-content-around" id="navbarSupportedContent">
+                    <ul class="navbar-nav">
+                        <li class="nav-item ">
                             <a class="nav-link link " href="#">Home</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">About</a>
+                            <a class="nav-link" href="#About">About</a>
+                        </li>
+                        <!-- <li class="nav-item">
+                            <a class="nav-link"  href="#">Resume</a>
+                        </li> -->
+                        <li class="nav-item">
+                            <a class="nav-link"  href="#Skills">Skills</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" aria-current="page" href="#">Resume</a>
+                            <a class="nav-link "  href="#Projects">Projects</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" aria-current="page" href="#">Skills</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link " aria-current="page" href="#">Projects</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" aria-current="page" href="#">Contact</a>
+                            <a class="nav-link"  href="#Contact">Contact</a>
                         </li>
                 </div>
             </div>
@@ -61,18 +61,18 @@
             </div>
 
             <div class="profile_pic">
-                <img src="assets/images/Gnana.png" alt="Gnanakumar_image" width="300px">
+                <img src="assets/images/Gnanams.png" alt="Gnanakumar_image" width="300px">
             </div>
-        </section>
+        </section><hr>
 
         <!-- Home section ends -->
 
         <!-- About section starts -->
-        <section class="about_me">
+        <section class="about_me" id="About">
             <div class="image"><img src="assets/images/Gnana.png" alt="Gnanakumar's Image" width="300px"></div>
             <div class="data">
                 <h1 id="about-me">About me</h1>
-                <h1 class="about">About</h1>
+                <!-- <h1 class="about">About</h1> -->
                 <p>I'm Passinote about my Fullstack web development and My carrior</p>
                 <table style="text-align: left;">
                     <tr class="biodata">
@@ -112,11 +112,11 @@
 
                 <!-- <button class="cv">Download CV</button> -->
             </div>
-        </section>
+        </section><hr>
         <!-- About section Ends -->
 
         <!-- skills section starts -->
-        <section class="skills-section">
+        <section class="skills-section" id="Skills">
             <h2>My Skills</h2>
             <p class="sub-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. In ex excepturi, sint aliquid
                 ullam ad!</p>
@@ -157,36 +157,36 @@
                     </div>
                 </div>
             </div>
-        </section>
+        </section><hr>
         <!-- skill section ends -->
 
         <!-- Project section starts -->
-         <section class="project-card">
+         <section class="project-card" id="Projects">
             <h1>Projects</h1>
          <div class="Projects">
                 <div class="website">
                     <img src="assets/images/company_clone.jpeg" alt="" width="300px">
                     <p>companywebsite</p>
-                    <button>Link</button>
+                    <a target="_blank" href="https://e-commerce-hlhr.vercel.app/"><button>Link</button></a>
                 </div>
 
                 <div class="website">
                     <img src="assets/images/Currency converter.jpg" alt="" width="300px">
                     <p>currency converter</p>
-                    <button>Link</button>
+                    <a target="_blank" href="https://currency-converter-virid-mu.vercel.app/" ><button>Link</button></a>
                 </div>
 
                 <div class="website">
                     <img src="assets/images/instagram_clone.png" alt="" width="300px">
                     <p>instagram_clone</p>
-                    <button>Link</button>
+                    <a href=""><button>Link</button></a>
                 </div>
          </div>
-         </section>
+         </section><hr>
          <!-- Project section ends -->
 
         <!-- Contact section starts -->
-        <section class="contact">
+        <section class="contact" id="Contact">
             <h1>SEND ME A MESSAGE</h1>
             <p class="sub-para">Let's create something amazing together - feel free to reach out!</p>
             <div class="contact-container">

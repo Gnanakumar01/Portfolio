@@ -2,25 +2,40 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    
 }
 
-body {
-    background-color: #aaa;
+body{
+background: linear-gradient(to right, rgb(245, 241, 241), rgb(226, 253, 231));
 }
 
 .navbar{
     width: 100vw;
     position: fixed;
     top: 0;
-    background-color: #333;
+    color: black;
+
+    /* background-color: ; */
     z-index: 1;
+
+    .navbar-brand{
+        width: 50vw;
+        color: black;
+        font-weight: 700;
+    }
+
+.collapse{
+    border-radius: 20px;
+    color: black;
+    backdrop-filter: blur(20px); 
+    /* -webkit-backdrop-filter: blur(10px); */
+    font-weight: 500;
+   
+}
+.navbar-toggler{
+    border: none;
+}
     
-}
-:hover.link{
-    color: darkgoldenrod;
-}
-:hover.navbar-nav{
-    color: yellow;
 }
 
 .name {
@@ -39,13 +54,9 @@ body {
     gap: 20px;
     padding-right: 50px;
 }
-.nav-link{
-    color: white;
-}
 
 :hover.nav-link {
     cursor: pointer;
-    color: darkgoldenrod;
     text-decoration: underline;
 }
 
@@ -54,7 +65,7 @@ body {
 /* Home section starts */
 .hello {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    color: darkgoldenrod;
+    color: rgb(8, 244, 8);
     padding: 80px 0px;
 }
 
@@ -63,7 +74,7 @@ body {
 }
 
 #name {
-    color: darkgoldenrod;
+    color: rgb(10, 237, 10);
     margin-bottom: 25px;
 }
 
@@ -76,6 +87,7 @@ body {
         border: none;
         border-radius: 50px;
         padding: 5px;
+        background-color: lightgreen;
         font-family: Verdana, Geneva, Tahoma, sans-serif;
         
     }
@@ -86,23 +98,28 @@ body {
         border-radius: 50px;
         padding: 5px;
         border: none;
+        background-color: lightgreen;
     }
 }
 
 .main_img {
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-between;
     margin-top: 50px;
 }
 
 .profile_pic {
-    margin-right: 100px;
-    margin-top: 50px;
+    margin-right: 200px;
+    margin-top: 100px;
+    img{
+        border-radius: 50%;
+    }
 }
 
 :hover.hire,
 :hover.work {
-    background-color: darkgoldenrod;
+    background-color: rgb(7, 241, 7);
     cursor: pointer;
 }
 
@@ -212,14 +229,14 @@ body {
 .progress-bar {
     width: 100%;
     height: 8px;
-    background-color: #333;
+    background-color: black;
     border-radius: 10px;
     position: relative;
 }
 
 .progress {
     height: 100%;
-    background-color: #f9b233;
+    background-color: lightgreen;
     border-radius: 10px;
 }
 /* Skills section styles ends */
@@ -233,7 +250,7 @@ body {
     }
 }
 .Projects{
-    margin-top: 100px;
+    padding: 70px 0;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
@@ -241,18 +258,18 @@ body {
 
     .website{
         display: grid;
-        border: 1px solid #aaa;
+        border: 1px solid lightblue;
         background-color: white;
         border-radius: 8px; 
         justify-items: center;
         padding-bottom: 10px;
         button{
             padding: 5px 10px;
-            background-color: gray;
+            background-color: lightblue;
             border-radius: 5px;
             border: none;
             &:hover{
-                background-color: #f9b233;
+                background-color: rgb(12, 185, 243);
             }
         }
         img{
@@ -325,13 +342,12 @@ body {
             width: 200px;
         }
         button{
-            border: 1px solid white;
+            border: none;
             border-radius: 5px;
             padding: 5px;
             margin-left: 45px;
             &:hover{
-                background-color: #f9b233;
-                border: 1px solid #f9b233;
+                background-color: rgb(135, 217, 244);
             }
             
         }
@@ -340,10 +356,12 @@ body {
 /* contact section ends */
 
 /* footer section starts */
-footer{
-    div{
-        margin-top: 80px;
-        text-align: center;
-    }
+footer div{
+    margin-top: 140px;
+    text-align: center;
+}
+
+footer div .bi{
+   color: black;
 }
 
