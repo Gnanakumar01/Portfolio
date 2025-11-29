@@ -9,12 +9,13 @@
         integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
     <link rel="stylesheet" href="assets/css/style.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
+    <link rel="shortcut icon" href="assets/images/Potfolio_Fav.png" type="image/x-icon">
 </head>
 
 <body>
 
     <header class="navbar">
-        <nav class="navbar navbar-expand-lg p-2">
+        <nav class="navbar navbar-expand-lg">
             <div class="container-fluid">
                 <a class="navbar-brand text-dark ps-5" href="#">Potfolio</a>
                 <button class="navbar-toggler " type="button" data-bs-toggle="collapse"
@@ -22,7 +23,7 @@
                     aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
-                <div class="collapse navbar-collapse justify-content-around" id="navbarSupportedContent">
+                <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
                     <ul class="navbar-nav">
                         <li class="nav-item ">
                             <a class="nav-link link " href="#">Home</a>
@@ -34,13 +35,13 @@
                             <a class="nav-link"  href="#">Resume</a>
                         </li> -->
                         <li class="nav-item">
-                            <a class="nav-link"  href="#Skills">Skills</a>
+                            <a class="nav-link" href="#Skills">Skills</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link "  href="#Projects">Projects</a>
+                            <a class="nav-link " href="#Projects">Projects</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link"  href="#Contact">Contact</a>
+                            <a class="nav-link" href="#Contact">Contact</a>
                         </li>
                 </div>
             </div>
@@ -53,7 +54,7 @@
             <div class="content">
                 <h3 class="hello">HELLO!</h3>
                 <h1>I'm <h1 id="name">Gnanakumar</h1>
-                    <h1>Fullstack Web Developer</h1>
+                    <h1>Frontend Developer</h1>
                     <div class="hire_work">
                         <button class="hire">Hire Me</button>
                         <button class="work">Download Cv</button>
@@ -63,18 +64,21 @@
             <div class="profile_pic">
                 <img src="assets/images/Gnanams.png" alt="Gnanakumar_image" width="300px">
             </div>
-        </section><hr>
+        </section>
+        <hr>
 
         <!-- Home section ends -->
 
         <!-- About section starts -->
         <section class="about_me" id="About">
-            <div class="image"><img src="assets/images/Gnana.png" alt="Gnanakumar's Image" width="300px"></div>
+            <div class="image">
+                <img src="assets/images/Gnana.png" alt="Gnanakumar's Image">
+            </div>
             <div class="data">
                 <h1 id="about-me">About me</h1>
                 <!-- <h1 class="about">About</h1> -->
-                <p>I'm Passinote about my Fullstack web development and My carrior</p>
-                <table style="text-align: left;">
+                <p> I am a passionate web developer specializing in creating responsive and user-friendly websites. Always learning and improving!</p>
+                <table>
                     <tr class="biodata">
                         <th>Name:</th>
                         <td>Gnanakumar</td>
@@ -106,20 +110,20 @@
                 </table>
 
                 <div class="project">
-                    <h4 class="number">3 </h4>
-                    <h4> Projects Completed</h4>
+                    <span class="num">3</span>
+                    <span>Project Completed</span>
                 </div>
 
                 <!-- <button class="cv">Download CV</button> -->
             </div>
-        </section><hr>
+        </section>
+        <hr>
         <!-- About section Ends -->
 
         <!-- skills section starts -->
         <section class="skills-section" id="Skills">
             <h2>My Skills</h2>
-            <p class="sub-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. In ex excepturi, sint aliquid
-                ullam ad!</p>
+            <p class="sub-text">I specialize in frontend development using HTML, CSS, Bootstrap, JavaScript, and React to build clean, responsive, and interactive web applications.</p>
 
             <div class="skills-container">
                 <div class="skill-box">
@@ -157,37 +161,49 @@
                     </div>
                 </div>
             </div>
-        </section><hr>
+        </section>
+        <hr>
         <!-- skill section ends -->
 
         <!-- Project section starts -->
-         <section class="project-card" id="Projects">
+        <section class="project-card" id="Projects">
             <h1>Projects</h1>
-         <div class="Projects">
+            <div class="Projects">
                 <div class="website">
-                    <img src="assets/images/company_clone.jpeg" alt="" width="300px">
-                    <p>companywebsite</p>
+                    <img src="assets/images/company_clone.jpeg" alt="" >
+                    <p>Developed a fully responsive company website using HTML and CSS, focusing on clean design, smooth layout structure, and a user-friendly interface.</p>
                     <a target="_blank" href="https://e-commerce-hlhr.vercel.app/"><button>Link</button></a>
+                    <a target="_blank" href="https://github.com/Gnanakumar01/Company_Website_Clone"><button>Github</button></a>
                 </div>
 
                 <div class="website">
                     <img src="assets/images/Currency converter.jpg" alt="" width="300px">
-                    <p>currency converter</p>
-                    <a target="_blank" href="https://currency-converter-virid-mu.vercel.app/" ><button>Link</button></a>
+                    <p>Developed a currency converter using React, HTML, and CSS, featuring dynamic input handling, and real-time conversion logic for multiple currencies.</p>
+                    <a target="_blank" href="https://currency-converter-virid-mu.vercel.app/"><button>Link</button></a>
+                    <a target="_blank" href="https://github.com/Gnanakumar01/Currency-Converter"><button>Github</button></a>
                 </div>
 
                 <div class="website">
-                    <img src="assets/images/instagram_clone.png" alt="" width="300px">
-                    <p>instagram_clone</p>
-                    <a href=""><button>Link</button></a>
+                    <img src="assets/images/instagram_clone.png" alt="" >
+                    <p>Built an Instagram clone using React, HTML, and CSS with a clean UI  similar to the original platform</p>
+                    <span><a href=""><button>Link</button></a></span>
+                    <span><a href=""><button>Github</button></a></span>
                 </div>
-         </div>
-         </section><hr>
-         <!-- Project section ends -->
+
+                <div class="website">
+                    <img src="assets/images/shop now.png" alt="" width="300px">
+                    <p>Created a fully responsive e-commerce website with HTML, CSS, and JavaScript on clean product display, easy navigation, and a visually appealing user experience</p>
+                    <span><a target="_blank" href="https://e-commerce-94xv.vercel.app/"><button>Link</button></a></span>
+                    <span><a target="_blank" href="https://github.com/Gnanakumar01/E_commerce"><button>Github</button></a></span>
+                </div>
+            </div>
+        </section>
+        <hr>
+        <!-- Project section ends -->
 
         <!-- Contact section starts -->
         <section class="contact" id="Contact">
-            <h1>SEND ME A MESSAGE</h1>
+            <h1>Send me a message</h1>
             <p class="sub-para">Let's create something amazing together - feel free to reach out!</p>
             <div class="contact-container">
                 <div class="contact_left">
@@ -212,23 +228,55 @@
         <!-- contact section ends -->
     </main>
 
-    <footer>
-        <div>
-            <h3>Gnanakumar S</h3>
-            <p>Crafting frontend experiences with code & creativity</p>
-            <a target="_blank" href="https://github.com/Gnanakumar01"><i class="bi bi-github"></i></a>
-            <a target="_blank" href="https://www.linkedin.com/feed/"><i class="bi bi-linkedin"></i></a>
-            <a href=""><i class="bi bi-envelope-fill"></i></a>
-            <hr class="gradient">
-            <p>2025 Gnanakumar All rights reserved.</p>
+    <footer class="footer bg-dark text-light pt-4 pb-3">
+        <div class="container">
+            <div class="row">
+
+                <!-- About Section -->
+                <div class="col-md-4 mb-3">
+                    <h5 class="text-uppercase mb-3">About Me</h5>
+                    <p>
+                        I am a passionate web developer specializing in creating responsive
+                        and user-friendly websites. Always learning and improving!
+                    </p>
+                </div>
+
+                <!-- Quick Links -->
+                <div class="col-md-4 mb-3">
+                    <h5 class="text-uppercase mb-3">Quick Links</h5>
+                    <ul class="list-unstyled">
+                        <li><a href="#home" class="text-light text-decoration-none">Home</a></li>
+                        <li><a href="#projects" class="text-light text-decoration-none">Projects</a></li>
+                        <li><a href="#skills" class="text-light text-decoration-none">Skills</a></li>
+                        <li><a href="#contact" class="text-light text-decoration-none">Contact</a></li>
+                    </ul>
+                </div>
+
+                <!-- Social Section -->
+                <div class="col-md-4 mb-3">
+                    <h5 class="text-uppercase mb-3">Follow Me</h5>
+                    <a href="#" class="text-light me-3 fs-4"><i class="bi bi-github"></i></a>
+                    <a href="#" class="text-light me-3 fs-4"><i class="bi bi-linkedin"></i></a>
+                    <a href="#" class="text-light fs-4"><i class="bi bi-instagram"></i></a>
+                </div>
+
+            </div>
+
+            <hr class="border-secondary" />
+
+            <div class="text-center">
+                <p class="mb-0">© 2025 Gnanam. All Rights Reserved.</p>
+            </div>
         </div>
     </footer>
+
+
 
 </body>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
     crossorigin="anonymous"></script>
 
-    <script src="assets/Js/script.js"></script>
+<script src="assets/Js/script.js"></script>
 
 </html>
