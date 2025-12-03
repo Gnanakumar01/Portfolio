@@ -3,7 +3,9 @@
     padding: 0;
     box-sizing: border-box;
 }
-
+html{
+    scroll-behavior: smooth;
+}
 body{
 background: linear-gradient(135deg,#f4f5f7, #b1e0bb);
 
@@ -302,10 +304,15 @@ th,td{
             margin: 5px;
             padding: 3px;
             width: 200px;
+            border: none;
+            border-radius: 15px;
+            width: 100;
         }
         textarea{
             margin: 5px;
             width: 200px;
+            border: none;
+            border-radius: 15px;
         }
         button{
             border: none;
