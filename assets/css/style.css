@@ -27,7 +27,6 @@ background: linear-gradient(135deg,#f4f5f7, #b1e0bb);
 .container-fluid{
     backdrop-filter: blur(20px); 
     border-radius: 20px;
-    margin: 0px 10px;
 }
 
 .collapse{
@@ -321,7 +320,7 @@ th,td{
             margin-left: 45px;
             transition-duration: 1s;
             &:hover{
-                background-color: rgb(5, 186, 247);
+                background-color: rgb(42, 242, 42);
                 transition-duration: 700ms;
             }
             
