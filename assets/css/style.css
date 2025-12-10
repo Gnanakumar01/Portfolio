@@ -338,6 +338,23 @@ footer div{
 footer div .bi{
    color: black;
 }
+/* Social Media */
+.bi-github{
+    &:hover{
+        color: grey;
+    }
+}
+.bi-linkedin{
+    &:hover{
+        color:#03a2f7
+    }
+}
+.bi-instagram{
+    &:hover{
+        color: rgb(250, 43, 212);
+    }
+}
+
 
 /* Responsive design */
 
