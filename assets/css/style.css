@@ -29,10 +29,7 @@ background: linear-gradient(135deg,#f4f5f7, #b1e0bb);
 
 
 .collapse{
-   
-    /* border-radius: 20px; */
     color: black;
-    /* backdrop-filter: blur(20px);  */
     font-weight: 500;  
 }
 .navbar-nav{
