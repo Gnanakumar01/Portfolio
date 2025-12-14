@@ -57,10 +57,17 @@ background: linear-gradient(135deg,#f4f5f7, #b1e0bb);
     gap: 20px;
     padding-right: 50px;
 }
-
+.nav-link{
+        background: linear-gradient(to right, lightgreen 50%, white 50%);
+        background-size: 200% 100%;
+        background-position: right bottom;
+        padding: 13px 25px;
+        transition: 0.3s;
+}
 :hover.nav-link {
     cursor: pointer;
-    text-decoration: underline;
+    background-position: left bottom;
+    
 }
 
 /* Main style starts */
