@@ -1,7 +1,5 @@
-document.addEventListener('DOMContentLoaded', () => {
-    let btn = document.getElementById('home');
+let home = document.getElementById('home');
 
-    btn.addEventListener('click', () => {
-        btn.style.backgroundColor = 'red';
-    });
-});
+home.addEventListener('click',()=>{
+    home.style.backgroundColor = 'red'
+})
