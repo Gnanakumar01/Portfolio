@@ -421,7 +421,6 @@ footer div .bi {
 
     .content {
         margin: auto;
-
     }
 
     .profile_pic {
@@ -460,7 +459,10 @@ footer div .bi {
         grid-template-columns: 1fr 1fr;
     }
 }
-
+    /* contact */
+    .contact-container{
+        margin: 0px;
+    }
 
 @media (max-width: 576px) {
 
@@ -503,4 +505,21 @@ footer div .bi {
     .Projects {
         grid-template-columns: 1fr;
     }
+    /* Contact */
+   .contact{
+    .contact-container{
+        display: flex;
+        justify-content: center;
+        .contact_left{
+            font-size: medium;
+            width: 200px;
+
+        }
+        .contact_right{
+            margin-right: 0px;
+            width: 100vw;
+        }
+    }
+    
+   }
 }
